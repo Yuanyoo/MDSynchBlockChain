@@ -80,7 +80,7 @@ func (t *SimpleChaincode) Init(stub shim.ChaincodeStubInterface, function string
 
 	A = args[0]
 
-	Aval, err = strconv.Atoi(args[1]+5)
+	Aval, err = strconv.Atoi(args[1])
 
 	if err != nil {
 
