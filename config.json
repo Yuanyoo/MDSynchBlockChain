@@ -24,7 +24,7 @@
       ]
    },
    "queryRequest":{
-      "functionName":"query",
+      "functionName":"quaery",
       "args":[
          "a"
       ]
